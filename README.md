@@ -1,8 +1,7 @@
 ### Hi there 👋
 
-![Estrella Logo Texto](https://github.com/BlommamPro/BlommamPro/assets/55925490/96712dc6-e11a-4b85-85a6-c8d9211477f0)
+![estrellastudios + logo](https://github.com/BlommamPro/BlommamPro/assets/55925490/1081fdd4-97e6-463d-93ed-e52ab12a2b47)
 
-![Logo_nuevo](https://github.com/BlommamPro/BlommamPro/assets/55925490/bb077234-e635-484b-88fd-899ad8d1fb00)
 
 
 
