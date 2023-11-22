@@ -2,6 +2,11 @@
 
 ***
 
+![Captura de pantalla 2023-11-21 224204](https://github.com/BlommamPro/BlommamPro/assets/55925490/e7b43fc7-7c03-4636-9156-6c18402c5d75)
+
+
+***
+
 ### Estadísticas de Github
 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=blommampro&&show_icons=true&include_all_commits=true&theme=radical" alt="Estadísticas de BlommamPro" width="60%">
