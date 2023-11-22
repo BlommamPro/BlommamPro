@@ -1,8 +1,14 @@
 ![estrellastudios + logo](https://github.com/BlommamPro/BlommamPro/assets/55925490/1081fdd4-97e6-463d-93ed-e52ab12a2b47)
 
 ***
+### [EstrellaMusic](https://estrellastudios.vercel.app/EstrellaMusic.html)
 
 ![estrellamusicbot](https://github.com/BlommamPro/BlommamPro/assets/55925490/238a8438-f80f-49a1-9016-22a099238895)
+
+***
+### [LomiHost](https://lomihost.com/aff.php?aff=9)
+
+![lomihostmasgrande](https://github.com/BlommamPro/BlommamPro/assets/55925490/4b3cec03-ffdb-4924-92ba-3e23ceb3771a)
 
 ***
 
