@@ -1,16 +1,12 @@
 ![estrellastudios + logo](https://github.com/BlommamPro/BlommamPro/assets/55925490/1081fdd4-97e6-463d-93ed-e52ab12a2b47)
 
+***
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=blommampro&show_icons=true&theme=radical)      [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&exclude_repo=github-readme-stats,blommampro.github.io)](https://github.com/blommampro/github-readme-stats)
+### Estadísticas de Github
 
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
-</a>
-
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=blommampro&&show_icons=true&include_all_commits=true&title_color=fff&icon_color=79ff97&text_color=efefef&bg_color=24292e" alt="Estadísticas de BlommamPro" width="60%">
+  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&show_icons=true&hide_border=true&theme=radical" width="37%" alt="Lenguajes más usados por BlommamPro">
 
 <!--
 **BlommamPro/BlommamPro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
