@@ -3,7 +3,7 @@
 ![estrellastudios + logo](https://github.com/BlommamPro/BlommamPro/assets/55925490/1081fdd4-97e6-463d-93ed-e52ab12a2b47)
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=blommampro&show_icons=true&theme=radical) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&exclude_repo=github-readme-stats,blommampro.github.io)](https://github.com/blommampro/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=blommampro&show_icons=true&theme=radical)      [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&exclude_repo=github-readme-stats,blommampro.github.io)](https://github.com/blommampro/github-readme-stats)
 
 
 
