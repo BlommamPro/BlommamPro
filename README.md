@@ -2,8 +2,7 @@
 
 ***
 
-![Captura de pantalla 2023-11-21 224204](https://github.com/BlommamPro/BlommamPro/assets/55925490/e7b43fc7-7c03-4636-9156-6c18402c5d75)
-
+![estrellamusicbot](https://github.com/BlommamPro/BlommamPro/assets/55925490/238a8438-f80f-49a1-9016-22a099238895)
 
 ***
 
