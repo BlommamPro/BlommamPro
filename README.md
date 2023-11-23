@@ -18,6 +18,9 @@
   
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&show_icons=true&hide_border=true&theme=radical" width="37%" alt="Lenguajes más usados por BlommamPro">
 
+***
+
+![](https://komarev.com/ghpvc/?username=blommampro&color=blue)
 <!--
 **BlommamPro/BlommamPro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
