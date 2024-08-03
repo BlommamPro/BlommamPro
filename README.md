@@ -1,7 +1,7 @@
 ![estrellastudios + logo](https://github.com/BlommamPro/BlommamPro/assets/55925490/1081fdd4-97e6-463d-93ed-e52ab12a2b47)
 
 ***
-### [EstrellaMusic](https://estrellastudios.vercel.app/EstrellaMusic.html)
+### [EstrellaMusic](https://estrellastudios.vercel.app/BuroIdolMusic.html)
 
 ![estrellamusicbot](https://github.com/BlommamPro/BlommamPro/assets/55925490/238a8438-f80f-49a1-9016-22a099238895)
 
