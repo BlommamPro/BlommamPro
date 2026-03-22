@@ -6,12 +6,12 @@
 ![estrellamusicbot](https://github.com/BlommamPro/BlommamPro/assets/55925490/238a8438-f80f-49a1-9016-22a099238895)
 
 ***
-// ### [LomiHost](https://lomihost.com/aff.php?aff=9)
+<!--[LomiHost](https://lomihost.com/aff.php?aff=9)
 
-// ![lomihostmasgrande](https://github.com/BlommamPro/BlommamPro/assets/55925490/4b3cec03-ffdb-4924-92ba-3e23ceb3771a)
+![lomihostmasgrande](https://github.com/BlommamPro/BlommamPro/assets/55925490/4b3cec03-ffdb-4924-92ba-3e23ceb3771a)
 
 ***
-
+-->
 ### Estadísticas de Github
 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=blommampro&&show_icons=true&include_all_commits=true&theme=radical&locale=es" alt="Estadísticas de BlommamPro" width="60%">
