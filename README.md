@@ -20,6 +20,12 @@
 
 ***
 
+<p align="center">
+    (since 2024/11/30)
+    <br>
+    <img src="https://count.getloli.com/@ysmmodelrepo?name=ysmmodelrepo&theme=gelbooru&padding=8&offset=0&align=top&scale=1.3&pixelated=1&darkmode=auto"/>
+</p>
+
 ![](https://komarev.com/ghpvc/?username=blommampro&color=blue&style=plastic)
 <!--
 **BlommamPro/BlommamPro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
