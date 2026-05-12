@@ -14,6 +14,12 @@
 -->
 ### Estadísticas de Github
 
+<div align="center">
+  <a href="https://github.com/kawarimidoll/typograssy">
+        <img alt="typograssy" src="https://typograssy.deno.dev/api?text=EstrellaStudios%20%20%20%20%20%20%20%20%20%20%20BlommamPro%20%20%20%20%20%20%20%20%20%20%20&l0=000000&l1=3b0e44&l2=64006b&l3=8a26a6&l4=a03fd5&bg=000000&frame=ffffff">
+  </a>
+</div>>
+
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=blommampro&&show_icons=true&include_all_commits=true&theme=radical&locale=es" alt="Estadísticas de BlommamPro" width="60%">
   
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blommampro&show_icons=true&theme=radical&locale=es&border_color=fffefe" width="37%" alt="Lenguajes más usados por BlommamPro">
