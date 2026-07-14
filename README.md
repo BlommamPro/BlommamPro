@@ -79,7 +79,7 @@
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=blommampro&locale=es&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
   <img src="https://raw.githubusercontent.com/blommampro/blommampro/trophy-output/trophy.svg?theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-  <img src="https://raw.githubusercontent.com/blommampro/blommampro/activity-graph-output/activity-graph.svg?radius=16&theme=dracula&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://raw.githubusercontent.com/blommampro/blommampro/activity-graph-output/activity-graph.svg?radius=5&theme=dracula&area=true&order=5&hide_title=true&hide_border=true" height="100" alt="activity-graph graph"  />
 </div>
 
 ###
@@ -91,9 +91,9 @@
 ###
 
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/bomberman-contribution-graph-dark.svg?game=bomberman">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/blommampro/blommampro/pacman-output/bomberman-contribution-graph.svg?game=bomberman">
 </picture>
 
 ###
