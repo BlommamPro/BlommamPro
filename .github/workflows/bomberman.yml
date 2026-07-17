@@ -27,24 +27,24 @@ jobs:
             - name: create dist directory
               run: mkdir -p dist
 
-            - name: generate bomberman with full scenario (light)
+            - name: generate bomberman with random scenario (light)
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
                     --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
-                    --scenario full \
+                    --scenario random \
                     --output dist/bomberman-contribution-graph.svg
 
-            - name: generate bomberman with full scenario (dark)
+            - name: generate bomberman with random scenario (dark)
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
                     --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
-                    --scenario full \
+                    --scenario random \
                     --output dist/bomberman-contribution-graph-dark.svg
 
             - name: push SVGs to the output branch
