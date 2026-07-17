@@ -16,13 +16,33 @@ jobs:
         timeout-minutes: 20
 
         steps:
-            - name: generate bomberman with demo scenario
-              uses: abozanona/pacman-contribution-graph@main
+            - name: setup node
+              uses: actions/setup-node@v4
               with:
-                  github_user_name: ${{ github.repository_owner }}
-                  games: 'bomberman'
-                  platform: 'scenario'
-                  scenario: 'full'
+                  node-version: '20'
+
+            - name: install pacman-contribution-graph
+              run: npm install -g pacman-contribution-graph
+
+            - name: generate bomberman with full scenario (light)
+              run: |
+                  pacman-contribution-graph \
+                    --game bomberman \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github \
+                    --scenario full \
+                    --output dist/bomberman-contribution-graph.svg
+
+            - name: generate bomberman with full scenario (dark)
+              run: |
+                  pacman-contribution-graph \
+                    --game bomberman \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github-dark \
+                    --scenario full \
+                    --output dist/bomberman-contribution-graph-dark.svg
 
             - name: push SVGs to the output branch
               uses: crazy-max/ghaction-github-pages@v3.1.0
