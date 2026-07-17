@@ -24,6 +24,9 @@ jobs:
             - name: install pacman-contribution-graph
               run: npm install -g pacman-contribution-graph
 
+            - name: create dist directory
+              run: mkdir -p dist
+
             - name: generate bomberman with full scenario (light)
               run: |
                   pacman-contribution-graph \
