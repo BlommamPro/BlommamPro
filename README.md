@@ -90,15 +90,15 @@
 
 ###
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/pacman-output/bomberman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/pacman-output/bomberman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/pacman-output/bomberman-contribution-graph.svg">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blommampro/blommampro/output/bomberman-contribution-graph.svg">
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/blommampro/blommampro/output/bomberman-contribution-graph.svg">
 </picture>
 
 ###
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/blommampro/blommampro/snake-output/snake.svg" alt="Snake animation" />
+
 
 ###
 
