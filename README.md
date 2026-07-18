@@ -2,7 +2,14 @@
 
 ###
 
-<p data-importer="text" align="center">Bienvenido a mi perfil de GitHub. Aquí comparto lo que construyo, aprendo y experimento.</p>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Bienvenido+a+mi+perfil+de+GitHub.;Aqu%C3%AD+comparto+lo+que+e+aprendido.;Estudiante+de+desarrollo+web." alt="Typing SVG" />
+  </a>
+</p>
+<!--
+<p data-importer="text" align="center">Bienvenido a mi perfil de GitHub. Aquí comparto lo que construyo, aprendo y experimento.</p> 
+-->
 
 ###
 
