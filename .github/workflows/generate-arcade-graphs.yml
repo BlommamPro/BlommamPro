@@ -16,6 +16,12 @@ jobs:
         timeout-minutes: 20
 
         steps:
+            # ═══════════════════════════════════════════════════
+            # 📥 CHECKOUT DEL REPOSITORIO (FALTABA ESTO)
+            # ═══════════════════════════════════════════════════
+            - name: checkout repository
+              uses: actions/checkout@v4
+
             - name: setup node
               uses: actions/setup-node@v4
               with:
@@ -34,7 +40,7 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game pacman \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
                     --scenario random \
@@ -44,7 +50,7 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game pacman \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
                     --scenario random \
@@ -57,7 +63,7 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
                     --scenario random \
@@ -67,80 +73,11 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
                     --scenario random \
                     --output dist/bomberman-contribution-graph-dark.svg
-
-            # ═══════════════════════════════════════════════════
-            # 👾 SPACE INVADERS
-            # ═══════════════════════════════════════════════════
-            - name: generate space-invaders (light)
-              run: |
-                  pacman-contribution-graph \
-                    --game space-invaders \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github \
-                    --scenario random \
-                    --output dist/space-invaders-contribution-graph.svg
-
-            - name: generate space-invaders (dark)
-              run: |
-                  pacman-contribution-graph \
-                    --game space-invaders \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github-dark \
-                    --scenario random \
-                    --output dist/space-invaders-contribution-graph-dark.svg
-
-            # ═══════════════════════════════════════════════════
-            # 🐍 SNAKE
-            # ═══════════════════════════════════════════════════
-            - name: generate snake (light)
-              run: |
-                  pacman-contribution-graph \
-                    --game snake \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github \
-                    --scenario random \
-                    --output dist/snake-contribution-graph.svg
-
-            - name: generate snake (dark)
-              run: |
-                  pacman-contribution-graph \
-                    --game snake \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github-dark \
-                    --scenario random \
-                    --output dist/snake-contribution-graph-dark.svg
-
-            # ═══════════════════════════════════════════════════
-            # 🧱 TETRIS
-            # ═══════════════════════════════════════════════════
-            - name: generate tetris (light)
-              run: |
-                  pacman-contribution-graph \
-                    --game tetris \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github \
-                    --scenario random \
-                    --output dist/tetris-contribution-graph.svg
-
-            - name: generate tetris (dark)
-              run: |
-                  pacman-contribution-graph \
-                    --game tetris \
-                    --platform scenario \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github-dark \
-                    --scenario random \
-                    --output dist/tetris-contribution-graph-dark.svg
 
             # ═══════════════════════════════════════════════════
             # 🚀 GALAGA
@@ -149,7 +86,7 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game galaga \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
                     --scenario random \
@@ -159,14 +96,14 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game galaga \
-                    --platform scenario \
+                    --platform github \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
                     --scenario random \
                     --output dist/galaga-contribution-graph-dark.svg
 
             # ═══════════════════════════════════════════════════
-            # 📤 Push a la rama output
+            # 📤 Push SVGs a la rama output
             # ═══════════════════════════════════════════════════
             - name: push SVGs to the output branch
               uses: crazy-max/ghaction-github-pages@v3.1.0
