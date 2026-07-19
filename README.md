@@ -2,16 +2,15 @@
 
 ###
 
-<p align="center">
+<div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Bienvenido+a+mi+perfil+de+GitHub.;Aqu%C3%AD+comparto+lo+que+e+aprendido.;Estudiante+de+desarrollo+web." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=455&lines=Bienvenido+a+mi+perfil+de+GitHub+%F0%9F%91%8B;Soy+estudiante+de+desarrollo+web+%F0%9F%93%9A%F0%9F%92%BB;Siempre+aprendiendo+algo+nuevo+%F0%9F%A7%A0%E2%9C%A8;Apasionado+por+la+tecnolog%C3%ADa+%E2%9D%A4%EF%B8%8F%F0%9F%9A%80" alt="Typing SVG" />
   </a>
-</p>
-<!--
+</div>
+<!-- enlace del texto de arriba
+https://readme-typing-svg.demolab.com/demo/?center=true&width=455&lines=Bienvenido+a+mi+perfil+de+GitHub+%F0%9F%91%8B;Soy+estudiante+de+desarrollo+web+%F0%9F%93%9A%F0%9F%92%BB;Siempre+aprendiendo+algo+nuevo+%F0%9F%A7%A0%E2%9C%A8;Apasionado+por+la+tecnolog%C3%ADa+%E2%9D%A4%EF%B8%8F%F0%9F%9A%80
 <p data-importer="text" align="center">Bienvenido a mi perfil de GitHub. Aquí comparto lo que construyo, aprendo y experimento.</p> 
 -->
-
-###
 
 <div data-importer="socials" align="center">
   <a href="https://discord.com/users/536717287567392768" target="_blank">
