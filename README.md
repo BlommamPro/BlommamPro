@@ -8,7 +8,9 @@
   </a>
 </div>
 
-<!-- <p align="center">Bienvenido a mi perfil de GitHub. Aquí comparto lo que construyo, aprendo y experimento.</p> -->
+<!-- <p align="center">Bienvenido a mi perfil de GitHub. Aquí comparto lo que construyo, aprendo y experimento.</p>-->
+
+###
 
 <div align="center">
   <a href="https://discord.com/users/536717287567392768" target="_blank">
@@ -136,11 +138,38 @@
 
 ###
 
-<!-- 🍒 PAC-MAN -->
+<!-- 👻 PAC-MAN -->
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph.svg">
+</picture>
+
+###
+
+<!-- 🧱 BREAKOUT -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
+    <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
+</picture>
+
+###
+
+<!-- 🚀 GALAGA -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph.svg">
+    <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph.svg">
+</picture>
+
+###
+
+<!-- 🫧 PUZZLE BOBBLE -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/puzzle-bobble-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/puzzle-bobble-contribution-graph.svg">
+    <img alt="puzzle bobble contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/puzzle-bobble-contribution-graph.svg">
 </picture>
 
 ###
@@ -154,38 +183,11 @@
 
 ###
 
-<!-- 👾 SPACE INVADERS -->
+<!-- 💠 MINESWEEPER -->
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/space-invaders-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/space-invaders-contribution-graph.svg">
-    <img alt="space invaders contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/space-invaders-contribution-graph.svg">
-</picture>
-
-###
-
-<!-- 🐍 SNAKE -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/snake-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/snake-contribution-graph.svg">
-    <img alt="snake contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/snake-contribution-graph.svg">
-</picture>
-
-###
-
-<!-- 🧱 TETRIS -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/tetris-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/tetris-contribution-graph.svg">
-    <img alt="tetris contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/tetris-contribution-graph.svg">
-</picture>
-
-###
-
-<!-- 🚀 GALAGA -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph.svg">
-    <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/minesweeper-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/minesweeper-contribution-graph.svg">
+    <img alt="minesweeper contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/minesweeper-contribution-graph.svg">
 </picture>
 
 ###
