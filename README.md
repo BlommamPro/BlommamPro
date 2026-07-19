@@ -138,23 +138,19 @@
 
 ###
 
-<!-- 👻 PAC-MAN -->
+<!-- 💣 BOMBERMAN -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph.svg">
+    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph.svg">
+</picture>
+
+<!-- 🍒 PAC-MAN -->
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/pacman-contribution-graph.svg">
 </picture>
-
-###
-
-<!-- 🧱 BREAKOUT -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
-    <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
-</picture>
-
-###
 
 <!-- 🚀 GALAGA -->
 <picture>
@@ -163,7 +159,12 @@
     <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/galaga-contribution-graph.svg">
 </picture>
 
-###
+<!-- 🧱 BREAKOUT -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
+    <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/breakout-contribution-graph.svg">
+</picture>
 
 <!-- 🫧 PUZZLE BOBBLE -->
 <picture>
@@ -171,17 +172,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/puzzle-bobble-contribution-graph.svg">
     <img alt="puzzle bobble contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/puzzle-bobble-contribution-graph.svg">
 </picture>
-
-###
-
-<!-- 💣 BOMBERMAN -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph.svg">
-    <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/BlommamPro/BlommamPro/output/bomberman-contribution-graph.svg">
-</picture>
-
-###
 
 <!-- 💠 MINESWEEPER -->
 <picture>
