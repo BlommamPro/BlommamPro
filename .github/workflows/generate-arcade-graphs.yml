@@ -16,12 +16,6 @@ jobs:
         timeout-minutes: 20
 
         steps:
-            # ═══════════════════════════════════════════════════
-            # 📥 CHECKOUT DEL REPOSITORIO (FALTABA ESTO)
-            # ═══════════════════════════════════════════════════
-            - name: checkout repository
-              uses: actions/checkout@v4
-
             - name: setup node
               uses: actions/setup-node@v4
               with:
@@ -34,36 +28,13 @@ jobs:
               run: mkdir -p dist
 
             # ═══════════════════════════════════════════════════
-            # 🍒 PAC-MAN
-            # ═══════════════════════════════════════════════════
-            - name: generate pacman (light)
-              run: |
-                  pacman-contribution-graph \
-                    --game pacman \
-                    --platform github \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github \
-                    --scenario random \
-                    --output dist/pacman-contribution-graph.svg
-
-            - name: generate pacman (dark)
-              run: |
-                  pacman-contribution-graph \
-                    --game pacman \
-                    --platform github \
-                    --username ${{ github.repository_owner }} \
-                    --gameTheme github-dark \
-                    --scenario random \
-                    --output dist/pacman-contribution-graph-dark.svg
-
-            # ═══════════════════════════════════════════════════
             # 💣 BOMBERMAN
             # ═══════════════════════════════════════════════════
             - name: generate bomberman (light)
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
-                    --platform github \
+                    --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
                     --scenario random \
@@ -73,11 +44,34 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game bomberman \
-                    --platform github \
+                    --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
                     --scenario random \
                     --output dist/bomberman-contribution-graph-dark.svg
+
+            # ═══════════════════════════════════════════════════
+            # 🍒 PAC-MAN
+            # ═══════════════════════════════════════════════════
+            - name: generate pacman (light)
+              run: |
+                  pacman-contribution-graph \
+                    --game pacman \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github \
+                    --scenario random \
+                    --output dist/pacman-contribution-graph.svg
+
+            - name: generate pacman (dark)
+              run: |
+                  pacman-contribution-graph \
+                    --game pacman \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github-dark \
+                    --scenario random \
+                    --output dist/pacman-contribution-graph-dark.svg
 
             # ═══════════════════════════════════════════════════
             # 🚀 GALAGA
@@ -86,7 +80,7 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game galaga \
-                    --platform github \
+                    --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github \
                     --scenario random \
@@ -96,11 +90,80 @@ jobs:
               run: |
                   pacman-contribution-graph \
                     --game galaga \
-                    --platform github \
+                    --platform scenario \
                     --username ${{ github.repository_owner }} \
                     --gameTheme github-dark \
                     --scenario random \
                     --output dist/galaga-contribution-graph-dark.svg
+
+            # ═══════════════════════════════════════════════════
+            # 🧱 BREAKOUT
+            # ═══════════════════════════════════════════════════
+            - name: generate breakout (light)
+              run: |
+                  pacman-contribution-graph \
+                    --game breakout \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github \
+                    --scenario random \
+                    --output dist/breakout-contribution-graph.svg
+
+            - name: generate breakout (dark)
+              run: |
+                  pacman-contribution-graph \
+                    --game breakout \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github-dark \
+                    --scenario random \
+                    --output dist/breakout-contribution-graph-dark.svg
+
+            # ═══════════════════════════════════════════════════
+            # 🫧 PUZZLE BOBBLE
+            # ═══════════════════════════════════════════════════
+            - name: generate puzzle-bobble (light)
+              run: |
+                  pacman-contribution-graph \
+                    --game puzzle-bobble \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github \
+                    --scenario random \
+                    --output dist/puzzle-bobble-contribution-graph.svg
+
+            - name: generate puzzle-bobble (dark)
+              run: |
+                  pacman-contribution-graph \
+                    --game puzzle-bobble \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github-dark \
+                    --scenario random \
+                    --output dist/puzzle-bobble-contribution-graph-dark.svg
+
+            # ═══════════════════════════════════════════════════
+            # 💠 MINESWEEPER
+            # ═══════════════════════════════════════════════════
+            - name: generate minesweeper (light)
+              run: |
+                  pacman-contribution-graph \
+                    --game minesweeper \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github \
+                    --scenario random \
+                    --output dist/minesweeper-contribution-graph.svg
+
+            - name: generate minesweeper (dark)
+              run: |
+                  pacman-contribution-graph \
+                    --game minesweeper \
+                    --platform scenario \
+                    --username ${{ github.repository_owner }} \
+                    --gameTheme github-dark \
+                    --scenario random \
+                    --output dist/minesweeper-contribution-graph-dark.svg
 
             # ═══════════════════════════════════════════════════
             # 📤 Push SVGs a la rama output
