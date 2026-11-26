@@ -2,7 +2,7 @@ name: Generate trophy card
 
 on:
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 * * 0" # Se ejecuta cada domingo a medianoche
   workflow_dispatch:
   push:
     branches:
@@ -26,10 +26,12 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          output_path: dist/trophy.svg
+          theme: dracula
+          file: dist/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-        # Nota: Esta acción no acepta theme directamente, usa la configuración por defecto.
-        # Si necesitas el tema "dracula", tendrías que usar la Opción B o el endpoint público.
+          max-rows: 1
+          margin-width: 8
+          margin-height: 8
 
       - name: Push trophy.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
