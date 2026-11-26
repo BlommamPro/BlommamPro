@@ -19,25 +19,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v1.x
-
       - name: Create dist directory
         run: mkdir -p dist
 
       - name: Generate trophy.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          deno run -A https://deno.land/x/gh_trophy@v1/mod.ts \
-            --username ${{ github.repository_owner }} \
-            --theme dracula \
-            --output dist/trophy.svg \
-            --max-rows 1 \
-            --margin-width 8 \
-            --margin-height 8
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+        # Nota: Esta acción no acepta theme directamente, usa la configuración por defecto.
+        # Si necesitas el tema "dracula", tendrías que usar la Opción B o el endpoint público.
 
       - name: Push trophy.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v4
